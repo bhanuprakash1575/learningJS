@@ -1,0 +1,48 @@
+1. what % why  JS?
+    JS is high-level,dynamically typed, interpreted programming language.
+    It mainly used to add the functionality to web pages to make them more engaging.
+
+2. how we run JS?
+    - Browser Environment (Browser V8 JS Engine. Each Browser have their own JS engine)
+    - Node Environment (U can download the NODEJS in order to run ur JS files in ur machine)
+
+3. Getting started with JS
+    - Data Types in JS
+        - Primitive
+            - Int
+            - BigInt
+            - strings
+            - boolean
+            - null
+            - undefined
+            - symbols
+        - Non-Primitive
+            - arrays (Arrays are a special type of object that
+                use numerical indexes as keys.)
+            - objects (Collection of key-value pairs where the 
+                keys are strings and the values can be any data 
+                type, including other objects, arrays, or even 
+                functions)
+    - how to store values (variable declaration)
+        - var : it is a function-scoped. hoisted. can redeclarable. variable declared with var is accessible within the function it's declared in, as well as any nested functions within that function.
+        - let : Block-scoped. not hoisted. non-redeclarable.  A variable declared with let is only accessible within the block it's declared in (e.g., within curly braces {}). This provides more predictable and safer scoping compared to var.
+        - const : 
+            - Scope: Similar to let, const variables are also block-scoped.
+            - No Hoisting: Same as let, const variables are not hoisted.
+            - Immutability: The value of a variable declared with const must be assigned at the time of declaration, and it cannot be reassigned later. This is useful for defining constants that should not change throughout your program.
+
+    - loops in JS
+        - for : for ( variable-declaration; stopping condition; increment/decrement)
+        - while : variable-declaration while ( stopping-condition ) { //some code increment/decrement; }
+        - for..of (This loop iterates over the values of iterable objects like arrays, strings, maps, sets, and some custom iterables.)
+        - for..in (This loop iterates over the properties (keys) of an object. It's useful when you need to access property names or perform operations on each property of an object.)
+    - conditional
+        - if 
+        - if..else
+        - nested if..else
+        - switch 
+        - ternary operator (?)
+    - functions
+    - strings
+    - arrays
+    - objects
