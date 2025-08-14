@@ -7,6 +7,7 @@
     - Node Environment (U can download the NODEJS in order to run ur JS files in ur machine)
 
 3. Getting started with JS
+    - variables
     - Data Types in JS
         - Primitive
             - Int
